@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pay online | JACKS Electrical Technologies, LLC</title>
+<meta name="description" content="Pay your JACKS Electrical Technologies invoice online with card, Apple Pay, Google Pay and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14202e;--paper:#f3f1ec;--wire:#f2c230;--blue:#2b5fd9;--mute:#5a6675;--line:#d6d2c8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Barlow,system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:18px}
+h1,h2,h3{font-family:"Barlow Condensed",Impact,sans-serif;line-height:1.05;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+header{background:var(--ink);color:#fff}
+.bar{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;max-width:1040px;margin:0 auto;gap:16px;flex-wrap:wrap}
+.logo{font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:26px;text-decoration:none}
+.logo b{color:var(--wire)}
+nav a{margin-left:20px;text-decoration:none;font-weight:600}
+nav a:hover{color:var(--wire)}
+.hero{background:var(--ink);color:#fff;padding:56px 0 72px;border-bottom:10px solid var(--wire)}
+.hero h1{font-weight:800;font-size:clamp(46px,9vw,92px);max-width:11ch}
+.hero p{max-width:46ch;font-size:20px;color:#d7dde5;margin:20px 0 28px}
+.btn{display:inline-block;padding:14px 24px;font-weight:600;text-decoration:none;border-radius:4px;border:2px solid transparent}
+.btn.go{background:var(--wire);color:var(--ink)}
+.btn.go:hover{background:#ffd64d}
+.btn.alt{border-color:#fff;color:#fff;margin-left:10px}
+.btn.alt:hover{background:#fff;color:var(--ink)}
+section{padding:64px 0}
+h2{font-size:clamp(34px,5vw,52px);margin-bottom:24px;font-weight:800}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0;border-top:2px solid var(--ink)}
+.services div{padding:22px 20px 22px 0;border-bottom:1px solid var(--line)}
+.services h3{font-size:28px;margin-bottom:6px}
+.services p{margin:0;color:var(--mute)}
+.pay{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pay .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.paybox{background:var(--ink);color:#fff;padding:28px;border-radius:6px}
+.paybox p{color:#d7dde5;margin:0 0 18px}
+.paybox .btn{width:100%;text-align:center;cursor:pointer;font-size:18px;font-family:inherit}
+.small{font-size:15px;color:var(--mute)}
+.contact dl{display:grid;grid-template-columns:auto 1fr;gap:10px 24px;margin:0}
+.contact dt{font-weight:600}
+.contact dd{margin:0}
+footer{background:var(--ink);color:#b9c2cd;padding:28px 0;font-size:15px}
+.about .grid{display:grid;grid-template-columns:280px 1fr;gap:40px;align-items:start}
+.photo{display:block;background:var(--line);border-radius:6px;overflow:hidden;aspect-ratio:1/1}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:36px}
+.gallery a{display:block;background:var(--line);border-radius:6px;overflow:hidden;aspect-ratio:4/3}
+.gallery img{width:100%;height:100%;object-fit:cover;display:block}
+.opts{list-style:none;padding:0;margin:0 0 18px;border-top:1px solid #33475e}
+.opts li{padding:10px 0;border-bottom:1px solid #33475e;color:#d7dde5;font-size:16px}
+.opts b{color:#fff}
+@media (max-width:760px){.about .grid{grid-template-columns:1fr}.photo{max-width:280px}}
+@media (max-width:760px){.pay .grid{grid-template-columns:1fr}.btn.alt{margin:10px 0 0}nav a{margin:0 14px 0 0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style><style>.paypage{padding:56px 0 72px}.paypage .pay{border:0;background:transparent;padding:0}.paypage h1{font-weight:800;font-size:clamp(40px,7vw,68px);margin-bottom:28px}.paypage .back{display:inline-block;margin-top:28px;font-weight:600}.paypage .paybox{margin:0}</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="logo" href="index.html">JACKS <b>Electrical</b></a>
+    <nav><a href="index.html#services">Services</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a><a href="pay.html">Pay online</a></nav>
+  </div>
+</header>
+<main class="paypage">
+  <div class="wrap">
+    <h1>Pay your invoice</h1>
+    <section class="pay">
+  <div class="wrap grid">
+    <div>
+      <h2>Choose how you want to pay</h2>
+      <p>Pay by card, Apple Pay or Google Pay through Stripe's secure checkout. You'll get a receipt by email right away.</p>
+      <p class="small">We never see or store your card details.</p>
+    </div>
+    <div class="paybox">
+      <p>Card, Apple Pay and Google Pay: enter your invoice amount on the next page.</p>
+      <!-- Replace with the real Stripe Payment Link -->
+      <a class="btn go" href="STRIPE_PAYMENT_LINK_URL">Pay now with Stripe</a>
+      <!-- Delete any line below that Jack doesn't actually accept, and fill in the rest -->
+      <ul class="opts" style="margin-top:20px">
+        <li><b>Zelle:</b> PHONE OR EMAIL FOR ZELLE</li>
+        <li><b>Venmo:</b> @VENMO-HANDLE</li>
+        <li><b>Cash App:</b> $CASHTAG</li>
+        <li><b>Check:</b> payable to JACKS Electrical Technologies, LLC. Mail to MAILING ADDRESS</li>
+        <li><b>Cash:</b> accepted in person at the job</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <a class="back" href="index.html">Back to home</a>
+  </div>
+</main>
+<footer>
+  <div class="wrap">&copy; <span id="y"></span> JACKS Electrical Technologies, LLC. Licensed electrical contractor. License #: ADD LICENSE NUMBER</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
